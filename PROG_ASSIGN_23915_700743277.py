@@ -9,7 +9,7 @@ app=Flask(__name__)
 
 #Connecting to the Database
 try:
-    client = pymongo.MongoClient("mongodb+srv://Admin:Admin123@cluster0.hlrnkae.mongodb.net/?retryWrites=true&w=majority")
+    client = pymongo.MongoClient("mongodb+srv://<username>:<password>@cluster0.hlrnkae.mongodb.net/?retryWrites=true&w=majority")
     db = client.DB    
 except:
     print("Error -connect to db")
