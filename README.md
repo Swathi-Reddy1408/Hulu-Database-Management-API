@@ -41,27 +41,22 @@ Before running this application, ensure you have the following installed:
 
 1. Clone the repository:  
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/Swathi-Reddy1408/Hulu-Database-Management-API.git
+   cd Hulu-Database-Management-API
    ```
 
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Configure MongoDB Atlas or Local MongoDB:  
+2. Configure MongoDB Atlas or Local MongoDB:  
    - Replace the placeholder `<username>` and `<password>` in the MongoDB connection string in `app.py`:  
      ```python
      client = pymongo.MongoClient("mongodb+srv://<username>:<password>@cluster0.hlrnkae.mongodb.net/?retryWrites=true&w=majority")
      ```
 
-4. Run the application:  
+3. Run the application:  
    ```bash
    python app.py
    ```
 
-5. Open Postman or your browser and interact with the API at `http://127.0.0.1:5000`.
+4. Open Postman or your browser and interact with the API at `http://127.0.0.1:5000`.
 
 ---
 
