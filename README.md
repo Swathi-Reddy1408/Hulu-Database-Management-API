@@ -5,16 +5,6 @@ This project is a Flask-based REST API designed to interact with a MongoDB datab
 
 ---
 
-## Features
-
-- **Fetch All Records**: Retrieve all records from the database.
-- **Fetch Specific Record**: Retrieve a record by title.
-- **Add New Record**: Insert a new record into the database.
-- **Update Record**: Update a record by its title.
-- **Delete Record**: Delete a record by its title.
-
----
-
 ## Requirements
 
 Before running this application, ensure you have the following installed:
@@ -34,6 +24,15 @@ Before running this application, ensure you have the following installed:
    ```bash
    pip install flask pymongo
    ```
+
+---
+## Features
+
+- **Fetch All Records**: Retrieve all records from the database.
+- **Fetch Specific Record**: Retrieve a record by title.
+- **Add New Record**: Insert a new record into the database.
+- **Update Record**: Update a record by its title.
+- **Delete Record**: Delete a record by its title.
 
 ---
 
